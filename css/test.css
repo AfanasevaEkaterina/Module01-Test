@@ -31,6 +31,9 @@ body {
   ul > li {
     margin-right: 30px;
   }
+  ul > li: :last-child {
+    margin-right: 0
+  }
   a {
     color: rebeccapurple;
     font-weight: 700;
@@ -64,4 +67,10 @@ body {
 h1,h2,h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+.link {
+  background-color: rebeccapurple;
+  color:  white;
+  padding: 8px 15px 8px 15px;
+  margin-left: 10px;
 }
